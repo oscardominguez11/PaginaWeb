@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+
+}
+
+nav{
+    position: absolute;
+}
+
+.video{
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.texto{
+    text-align: center;
+}
+
+.texto h1{
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.texto a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    border: 10px solid white;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+}
